@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: 0;
+}
+
+.fiel {
+  height: 70px;
+}
+
+.container1 {
+  margin: 10%;
+  display: grid;
+  grid-template-rows: repeat 7, 1fr;
+  grid-template-columns: repeat 7, 1fr;
+  justify-content: center;
+}
+
+.header {
+  display: grid;
+  grid-column: 1/7;
+}
+
+.name {
+  display: grid;
+  grid-column: 1/5;
+}
+
+.youname {
+  display: grid;
+  grid-column: 1/5;
+}
+
+.youname2 {
+  display: grid;
+  grid-column: 1/8;
+  height: 40px;
+}
+
+.email {
+  display: grid;
+  grid-column: 1/5;
+}
+
+.youemail {
+  display: grid;
+  grid-column: 1/5;
+}
+
+.pasword {
+  display: grid;
+  grid-column: 1/5;
+}
+
+.youpasword {
+  display: grid;
+  grid-column: 1/5;
+}
+
+.agree {
+  display: grid;
+  grid-column: 1/5;
+}
+
+.button1 {
+  display: grid;
+  grid-column: 1/8;
+  height: 40px;
+}/*# sourceMappingURL=style.css.map */
